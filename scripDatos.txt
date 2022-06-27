@@ -6,6 +6,7 @@ insert into [dbo].[tblPAIS] values (401, 'Suecia');
 insert into [dbo].[tblPAIS] values (402, 'JAPÓN');
 insert into [dbo].[tblPAIS] values (403,'Inglaterra');
 insert into [dbo].[tblPAIS] values (404,'Finlandia');
+insert into [dbo].[tblPAIS] values (405,'Corea del Sur');
 
 /*************************************************************
 					CIUDAD
@@ -21,7 +22,9 @@ insert into [dbo].[tblCIUDAD] values (507,'Londres',403);
 insert into [dbo].[tblCIUDAD] values (508,'New York',400);
 insert into [dbo].[tblCIUDAD] values (509,'California',400);
 insert into [dbo].[tblCIUDAD] values (510,'Helsinki',404);
-
+insert into [dbo].[tblCIUDAD] values (511,'Gangseo-gu',405);
+insert into [dbo].[tblCIUDAD] values (512,'Jinju',405);
+insert into [dbo].[tblCIUDAD] values (513, 'Floyds Knobs',400);
 
 
 /*************************************************************
@@ -42,4 +45,16 @@ INSERT INTO [dbo].[tblPLATAFORMA] VALUES (311,'SUPER NINTENDO');
 INSERT INTO [dbo].[tblPLATAFORMA] VALUES (312,'NINTENDO SWITCH');
 INSERT INTO [dbo].[tblPLATAFORMA] VALUES (313,'NINTENDO WII');
 
+/*************************************************************
+				    Desarrolladora
+*************************************************************/
 
+insert into [dbo].[tblDESARROLLADORA] values (200, 'Riot Games', '2006-09-01','Brandon Beck, Marc Merrill',5000,500);
+insert into [dbo].[tblDESARROLLADORA] values (201, 'Mojang Studios', '2009-05-07','Markus Persson',70,501);
+insert into [dbo].[tblDESARROLLADORA] values (202,'Re-logic','05/01/2011','Andrew Spinks',90,513);
+insert into [dbo].[tblDESARROLLADORA] values ( 203,	'scott cawthon','1990-06-02','scott cawthon',1,	502);
+insert into [dbo].[tblDESARROLLADORA] values (204,'Nintendo','1889-09-23','Fusajiro Yamauchi',6574,503);
+insert into [dbo].[tblDESARROLLADORA] values (205,'Criterion Games','1993-01-01','Alex Ward y Fiona Sperry',90,505);
+insert into [dbo].[tblDESARROLLADORA] values (206,'NetherRealm Studios','2010-02-06','Ed Boon',107,504);
+insert into [dbo].[tblDESARROLLADORA] values (207,'Capcom','1979-05-30','Kenzō Tsujimoto',2839,506);
+insert into [dbo].[tblDESARROLLADORA] values (208,'Mediatonic','2005-08-01','Brunel University, Dave Bailey y Paul Croft',230,507);
