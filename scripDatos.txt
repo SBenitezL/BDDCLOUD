@@ -1,0 +1,45 @@
+/*************************************************************			
+					PAIS
+*************************************************************/
+insert into [dbo].[tblPAIS] values (400, 'Estados Unidos');
+insert into [dbo].[tblPAIS] values (401, 'Suecia');
+insert into [dbo].[tblPAIS] values (402, 'JAPÓN');
+insert into [dbo].[tblPAIS] values (403,'Inglaterra');
+insert into [dbo].[tblPAIS] values (404,'Finlandia');
+
+/*************************************************************
+					CIUDAD
+*************************************************************/
+insert into [dbo].[tblCIUDAD] values (500, 'Los Ángeles', 400);
+insert into [dbo].[tblCIUDAD] values (501, 'Estocolmo', 401);
+insert into [dbo].[tblCIUDAD] values (502, 'Texas', 400);
+INSERT INTO [dbo].[tblCIUDAD] VALUES (503,'Kioto',402);
+INSERT INTO [dbo].[tblCIUDAD] VALUES (504,'Chicago',400);
+insert into [dbo].[tblCIUDAD] values (505,'Guildford',403);
+insert into [dbo].[tblCIUDAD] values (506,'Osaka',402);
+insert into [dbo].[tblCIUDAD] values (507,'Londres',403);
+insert into [dbo].[tblCIUDAD] values (508,'New York',400);
+insert into [dbo].[tblCIUDAD] values (509,'California',400);
+insert into [dbo].[tblCIUDAD] values (510,'Helsinki',404);
+
+
+
+/*************************************************************
+				    PLATAFORMA
+*************************************************************/
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (300,'PC');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (301,'XBOX 360');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (302,'XBOX ONE');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (303,'XBOX SERIES S');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (304,'PLAYSTATION');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (305,'PLAYSTATION2');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (306,'PLAYSTATION3');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (307,'PLAYSTATION4');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (308,'PLAYSTATION5');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (309,'SMARTPHONE');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (310,'NINTENDO 64');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (311,'SUPER NINTENDO');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (312,'NINTENDO SWITCH');
+INSERT INTO [dbo].[tblPLATAFORMA] VALUES (313,'NINTENDO WII');
+
+
