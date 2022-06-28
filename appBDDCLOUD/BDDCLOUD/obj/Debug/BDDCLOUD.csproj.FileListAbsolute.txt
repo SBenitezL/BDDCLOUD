@@ -2,9 +2,9 @@ C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcia
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.exe
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.pdb
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.AssemblyReference.cache
-C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.SuggestedBindingRedirects.cache
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Properties.Resources.resources
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.GenerateResource.cache
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CoreCompileInputs.cache
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.exe
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.pdb
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Form1.resources

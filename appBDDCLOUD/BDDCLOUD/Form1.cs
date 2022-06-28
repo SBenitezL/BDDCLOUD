@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BDDCLOUD.logica;
 
 namespace BDDCLOUD
 {
@@ -15,6 +16,13 @@ namespace BDDCLOUD
         public Form1()
         {
             InitializeComponent();
+        }
+        #region atributos
+        clsConectar dato = new clsConectar();
+        #endregion
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
