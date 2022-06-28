@@ -61,3 +61,187 @@ insert into [dbo].[tblDESARROLLADORA] values (208,'Mediatonic','2005-08-01','Bru
 insert into [dbo].[tblDESARROLLADORA] values (209,'Rockstar Games','1998-12-01','Dan Houser,Sam Houser,Terry Donovan,Gary Foreman,Jamie King',2000,508);
 insert into [dbo].[tblDESARROLLADORA] values (210,'Blizzard Entertaiment','1991-02-08','Michael Morhaime, Allen Adham, Frank Pearce',4600,509);
 insert into [dbo].[tblDESARROLLADORA] values (211,'SuperCell','2010-05-14',	'Ilkka Paananen,Mikko Kodisoja, Visa Forsten',320,510);
+
+
+/*************************************************************
+				    Genero
+*************************************************************/
+insert into [dbo].[tblGENERO] values (100,'Terror');
+insert into [dbo].[tblGENERO] values (101,'Aventura');
+insert into [dbo].[tblGENERO] values (102,'Carreras');
+insert into [dbo].[tblGENERO] values (103,'Shooter');
+insert into [dbo].[tblGENERO] values (104,'Accion');
+insert into [dbo].[tblGENERO] values (105,'Arcade');
+insert into [dbo].[tblGENERO] values (106,'Estrategia');
+insert into [dbo].[tblGENERO] values (107,'Simulacion');
+insert into [dbo].[tblGENERO] values (108,'Rpg');
+insert into [dbo].[tblGENERO] values (109,'Mmorpg');
+insert into [dbo].[tblGENERO] values (110,'Run and gun');
+insert into [dbo].[tblGENERO] values (111,'Soul like');
+insert into [dbo].[tblGENERO] values (112,'Hack and Slash');
+insert into [dbo].[tblGENERO] values (113,'Misterio');
+insert into [dbo].[tblGENERO] values (114,'Psicologico');
+insert into [dbo].[tblGENERO] values (115,'Supervivencia');
+insert into [dbo].[tblGENERO] values (116,'Mundo abierto');
+insert into [dbo].[tblGENERO] values (117,'Construccion');
+
+
+/*************************************************************
+				  VideoJuegos
+*************************************************************/
+
+insert into [dbo].[tblVIDEOJUEGOS] values (1,'League of Legends','2009-10-27',null,200);
+insert into [dbo].[tblVIDEOJUEGOS] values (2,'Valorant', '2020-05-24',null,200);
+insert into [dbo].[tblVIDEOJUEGOS] values (3,'Minecraft', '2009-05-17',null,201);
+insert into [dbo].[tblVIDEOJUEGOS] values (4,'Teamfight tactics', '2019-06-26',null,200);
+insert into [dbo].[tblVIDEOJUEGOS] values (5,'Terraria', '2011-05-16',49.39,202);
+insert into [dbo].[tblVIDEOJUEGOS] values (6,'Five night at freddys', '2014-08-18',1,203);
+insert into [dbo].[tblVIDEOJUEGOS] values (7,'Mario 64', '1996-06-23',11.59,204);
+insert into [dbo].[tblVIDEOJUEGOS] values (8,'Mario Kart', '1992-08-27',6.16,204);
+insert into [dbo].[tblVIDEOJUEGOS] values (9,'Need for speed most wanted', '2012-10-30',10.7,205);
+insert into [dbo].[tblVIDEOJUEGOS] values (10,'Mortal Kombat', '1992-02-05',1.43,206);
+insert into [dbo].[tblVIDEOJUEGOS] values (11,'Monster Hunter World', '2018-01-21',64.37,207);
+insert into [dbo].[tblVIDEOJUEGOS] values (12,'Fall Guys', '2020-08-04',null,208);
+insert into [dbo].[tblVIDEOJUEGOS] values (13,'GTA V', '2015-04-14',32.13,209);
+insert into [dbo].[tblVIDEOJUEGOS] values (14,'Overwatch', '2016-05-24',10,209);
+insert into [dbo].[tblVIDEOJUEGOS] values (15,'Clash Royale', '2016-03-02',null,211);
+
+
+
+
+
+/*************************************************************
+				  GeneroVideoJuegos
+*************************************************************/
+
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,1);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(103,2);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,2);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(109,3);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(101,3);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(115,3);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(116,3);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(117,3);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,4);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(115,5);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(116,5);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(117,5);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,5);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(109,5);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(101,6);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(115,6);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(101,7);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(102,8);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,8);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(102,9);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,9);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,10);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(105,10);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,11);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(109,11);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(116,11);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(108,11);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(109,12);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(110,12);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,12);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(101,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(102,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(103,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(107,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(108,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(109,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(115,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(116,13);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,14);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(106,15);
+insert into [dbo].[tblGENEROVIDEOJUEGOS] values(104,15);
+
+
+
+/*************************************************************
+		        PLATAFORMAVIDEOJUEGOS
+*************************************************************/
+
+
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (1,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (2,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,302);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,303);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,307);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,308);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,309);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (3,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (4,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (4,309);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,302);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,303);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,307);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,308);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,309);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (5,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (6,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (6,303);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (6,308);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (6,309);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (6,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (7,310);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (7,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (8,310);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (8,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (9,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (9,301);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (9,306);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (9,313);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (10,304);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (10,311);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (11,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (11,302);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (11,304);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (12,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (12,303);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (12,307);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (12,308);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (12,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,301);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,302);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,303);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,306);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,307);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,308);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (13,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (14,300);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (14,302);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (14,307);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (14,312);
+insert into [dbo].[tblPLATAFORMAVIDEOJUEGOS] values (15,309);
+
+
+/*************************************************************
+		       JUGADORESPROFESIONALES
+*************************************************************/
+
+
+
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(600,'Faker','Lee Sang','hyeok'	,511,'1996-05-07');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(601,'	Lucro	','	Park Joon	','	Yeong'	,	512	,'1999-11-19');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(602,'Zombs','Jared','Gitlin',508,'1998-10-02');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(603,'ShanZam','Shahzed	','	Khan',509,'1993-10-02');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(604,'Jake','Jacob','Lyon',504,'1996-07-28');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(605,'ryujehong','ryu','je-hong	',512,'1991-07-05');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(606,'Surgical Globin','Frank','Oskam',502,'2004-02-07');
+insert into [dbo].[tblJUGADORESPROFESIONALES] values(607,'Soking','Jesus','	Valera'	,507,'1997-09-23');
+
+
+/*************************************************************
+	  VIDEOJUEGOSJUGADOSPORJUGADORESPROFESIONALES
+*************************************************************/
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(600,1);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(601,14);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(602,2);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(603,2);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(604,14);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(605,14);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(606,15);
+insert into [dbo].[tblVIDEOJUEGOSJUGADOS] values(607,15);
