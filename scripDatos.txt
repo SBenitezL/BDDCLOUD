@@ -58,3 +58,6 @@ insert into [dbo].[tblDESARROLLADORA] values (205,'Criterion Games','1993-01-01'
 insert into [dbo].[tblDESARROLLADORA] values (206,'NetherRealm Studios','2010-02-06','Ed Boon',107,504);
 insert into [dbo].[tblDESARROLLADORA] values (207,'Capcom','1979-05-30','Kenzō Tsujimoto',2839,506);
 insert into [dbo].[tblDESARROLLADORA] values (208,'Mediatonic','2005-08-01','Brunel University, Dave Bailey y Paul Croft',230,507);
+insert into [dbo].[tblDESARROLLADORA] values (209,'Rockstar Games','1998-12-01','Dan Houser,Sam Houser,Terry Donovan,Gary Foreman,Jamie King',2000,508);
+insert into [dbo].[tblDESARROLLADORA] values (210,'Blizzard Entertaiment','1991-02-08','Michael Morhaime, Allen Adham, Frank Pearce',4600,509);
+insert into [dbo].[tblDESARROLLADORA] values (211,'SuperCell','2010-05-14',	'Ilkka Paananen,Mikko Kodisoja, Visa Forsten',320,510);
