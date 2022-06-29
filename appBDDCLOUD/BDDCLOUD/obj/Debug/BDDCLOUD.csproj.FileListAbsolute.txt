@@ -2,7 +2,6 @@ C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcia
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.exe
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.pdb
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.AssemblyReference.cache
-C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.SuggestedBindingRedirects.cache
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Properties.Resources.resources
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.GenerateResource.cache
 C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CoreCompileInputs.cache
@@ -60,3 +59,46 @@ D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hans\Mic
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CopyComplete
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Build.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Text.Json.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Memory.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Buffers.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Data.Tools.Schema.Sql.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Data.Tools.Utilities.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\de\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\en\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\it\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.exe.config
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Form1.resources
+C:\Users\Santi\OneDrive\Escritorio\Universidad\Materias\Bases de datos II\Parcial\Exposición\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CopyComplete

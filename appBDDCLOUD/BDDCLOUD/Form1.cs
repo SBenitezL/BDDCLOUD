@@ -57,8 +57,66 @@ namespace BDDCLOUD
         {
             prcConsultarAllPlataformasVideoJuegoTableAdapter prc = new prcConsultarAllPlataformasVideoJuegoTableAdapter();
             dsVideoJuegos.prcConsultarAllPlataformasVideoJuegoDataTable dt = prc.GetData();
+            dgvPVJ.DataSource = dt;
 
             
+        }
+
+        private void btnInsertarPVJ_Click(object sender, EventArgs e)
+        {
+            prcConsultarAllPlataformasVideoJuegoTableAdapter prc = new prcConsultarAllPlataformasVideoJuegoTableAdapter();
+            int varIDVJ = -1;
+            int varIDP = -1;
+            try
+            {
+                varIDVJ = int.Parse(txtbVJID.Text);
+                varIDP = int.Parse(txtbPID.Text);
+                prc.Insert(varIDVJ,varIDP);
+                MessageBox.Show("Se completó exitosamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se pudo completar con los datos ingresados", "Error",MessageBoxButtons.OK,MessageBoxIcon.Error );
+            }
+            
+        }
+
+        private void btnActualizarPVJ_Click(object sender, EventArgs e)
+        {
+            prcConsultarAllPlataformasVideoJuegoTableAdapter prc = new prcConsultarAllPlataformasVideoJuegoTableAdapter();
+            int varIDVJ = -1;
+            int varIDP = -1;
+            int varNIDP = -1;
+            try
+            {
+                varIDVJ = int.Parse(txtbVJID.Text);
+                varIDP = int.Parse(txtbPID.Text);
+                varNIDP = int.Parse(txtbNPID.Text);
+                prc.Update(varIDVJ, varIDP, varNIDP);
+                MessageBox.Show("Se completó exitosamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se pudo completar con los datos ingresados", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEliminarPVJ_Click(object sender, EventArgs e)
+        {
+            prcConsultarAllPlataformasVideoJuegoTableAdapter prc = new prcConsultarAllPlataformasVideoJuegoTableAdapter();
+            int varIDVJ = -1;
+            int varIDP = -1;
+            try
+            {
+                varIDVJ = int.Parse(txtbVJID.Text);
+                varIDP = int.Parse(txtbPID.Text);
+                prc.Delete(varIDVJ, varIDP);
+                MessageBox.Show("Se completó exitosamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se pudo completar con los datos ingresados", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

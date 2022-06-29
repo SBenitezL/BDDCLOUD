@@ -39,24 +39,31 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtAnio = new System.Windows.Forms.TextBox();
             this.dgvJugador = new System.Windows.Forms.DataGridView();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tbpCRUD = new System.Windows.Forms.TabPage();
+            this.btnEliminarPVJ = new System.Windows.Forms.Button();
+            this.btnActualizarPVJ = new System.Windows.Forms.Button();
+            this.btnInsertarPVJ = new System.Windows.Forms.Button();
+            this.txtbNPID = new System.Windows.Forms.TextBox();
+            this.txtbPID = new System.Windows.Forms.TextBox();
+            this.txtbVJID = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvPVJ = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tbpJugador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tbpCRUD.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPVJ)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tbpJugador);
-            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tbpCRUD);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
@@ -96,7 +103,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(27, 279);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(81, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "id del jugador";
             // 
@@ -150,7 +157,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.Size = new System.Drawing.Size(94, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Año de consulta";
             // 
@@ -170,58 +177,130 @@
             this.dgvJugador.Size = new System.Drawing.Size(370, 399);
             this.dgvJugador.TabIndex = 0;
             // 
-            // tabPage2
+            // tbpCRUD
             // 
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(794, 411);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbpCRUD.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.tbpCRUD.Controls.Add(this.label8);
+            this.tbpCRUD.Controls.Add(this.btnEliminarPVJ);
+            this.tbpCRUD.Controls.Add(this.btnActualizarPVJ);
+            this.tbpCRUD.Controls.Add(this.btnInsertarPVJ);
+            this.tbpCRUD.Controls.Add(this.txtbNPID);
+            this.tbpCRUD.Controls.Add(this.txtbPID);
+            this.tbpCRUD.Controls.Add(this.txtbVJID);
+            this.tbpCRUD.Controls.Add(this.label7);
+            this.tbpCRUD.Controls.Add(this.label6);
+            this.tbpCRUD.Controls.Add(this.label5);
+            this.tbpCRUD.Controls.Add(this.dgvPVJ);
+            this.tbpCRUD.Controls.Add(this.button1);
+            this.tbpCRUD.Location = new System.Drawing.Point(4, 22);
+            this.tbpCRUD.Name = "tbpCRUD";
+            this.tbpCRUD.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpCRUD.Size = new System.Drawing.Size(794, 411);
+            this.tbpCRUD.TabIndex = 1;
+            this.tbpCRUD.Text = "CRUD";
+            // 
+            // btnEliminarPVJ
+            // 
+            this.btnEliminarPVJ.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnEliminarPVJ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarPVJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnEliminarPVJ.Location = new System.Drawing.Point(179, 360);
+            this.btnEliminarPVJ.Name = "btnEliminarPVJ";
+            this.btnEliminarPVJ.Size = new System.Drawing.Size(108, 36);
+            this.btnEliminarPVJ.TabIndex = 9;
+            this.btnEliminarPVJ.Text = "Eliminar";
+            this.btnEliminarPVJ.UseVisualStyleBackColor = false;
+            this.btnEliminarPVJ.Click += new System.EventHandler(this.btnEliminarPVJ_Click);
+            // 
+            // btnActualizarPVJ
+            // 
+            this.btnActualizarPVJ.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnActualizarPVJ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarPVJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnActualizarPVJ.Location = new System.Drawing.Point(179, 318);
+            this.btnActualizarPVJ.Name = "btnActualizarPVJ";
+            this.btnActualizarPVJ.Size = new System.Drawing.Size(108, 36);
+            this.btnActualizarPVJ.TabIndex = 8;
+            this.btnActualizarPVJ.Text = "Actualizar";
+            this.btnActualizarPVJ.UseVisualStyleBackColor = false;
+            this.btnActualizarPVJ.Click += new System.EventHandler(this.btnActualizarPVJ_Click);
+            // 
+            // btnInsertarPVJ
+            // 
+            this.btnInsertarPVJ.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnInsertarPVJ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarPVJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnInsertarPVJ.Location = new System.Drawing.Point(179, 273);
+            this.btnInsertarPVJ.Name = "btnInsertarPVJ";
+            this.btnInsertarPVJ.Size = new System.Drawing.Size(108, 36);
+            this.btnInsertarPVJ.TabIndex = 7;
+            this.btnInsertarPVJ.Text = "Insertar";
+            this.btnInsertarPVJ.UseVisualStyleBackColor = false;
+            this.btnInsertarPVJ.Click += new System.EventHandler(this.btnInsertarPVJ_Click);
+            // 
+            // txtbNPID
+            // 
+            this.txtbNPID.Location = new System.Drawing.Point(469, 157);
+            this.txtbNPID.Name = "txtbNPID";
+            this.txtbNPID.Size = new System.Drawing.Size(100, 20);
+            this.txtbNPID.TabIndex = 6;
+            // 
+            // txtbPID
+            // 
+            this.txtbPID.Location = new System.Drawing.Point(469, 115);
+            this.txtbPID.Name = "txtbPID";
+            this.txtbPID.Size = new System.Drawing.Size(100, 20);
+            this.txtbPID.TabIndex = 5;
+            // 
+            // txtbVJID
+            // 
+            this.txtbVJID.Location = new System.Drawing.Point(469, 79);
+            this.txtbVJID.Name = "txtbVJID";
+            this.txtbVJID.Size = new System.Drawing.Size(100, 20);
+            this.txtbVJID.TabIndex = 4;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(89, 115);
+            this.label7.Font = new System.Drawing.Font("Microsoft Tai Le", 9F);
+            this.label7.Location = new System.Drawing.Point(228, 164);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(121, 16);
             this.label7.TabIndex = 3;
-            this.label7.Text = "label7";
+            this.label7.Text = "Nuevo ID Plataforma:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(89, 83);
+            this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 9F);
+            this.label6.Location = new System.Drawing.Point(228, 122);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(83, 16);
             this.label6.TabIndex = 2;
-            this.label6.Text = "label6";
+            this.label6.Text = "Plataforma ID:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(89, 51);
+            this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 9F);
+            this.label5.Location = new System.Drawing.Point(228, 82);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(89, 16);
             this.label5.TabIndex = 1;
-            this.label5.Text = "label5";
+            this.label5.Text = "Video Juego ID:";
             // 
-            // dataGridView1
+            // dgvPVJ
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(511, 255);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(272, 150);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvPVJ.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dgvPVJ.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPVJ.Location = new System.Drawing.Point(467, 255);
+            this.dgvPVJ.Name = "dgvPVJ";
+            this.dgvPVJ.Size = new System.Drawing.Size(316, 150);
+            this.dgvPVJ.TabIndex = 1;
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(675, 213);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 36);
@@ -240,6 +319,16 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(376, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(43, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "CRUD";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,9 +341,9 @@
             this.tbpJugador.ResumeLayout(false);
             this.tbpJugador.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tbpCRUD.ResumeLayout(false);
+            this.tbpCRUD.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPVJ)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -263,7 +352,7 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tbpJugador;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tbpCRUD;
         private System.Windows.Forms.Button btnConsultarJugador;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtAnio;
@@ -275,10 +364,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvPVJ;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button btnEliminarPVJ;
+        private System.Windows.Forms.Button btnActualizarPVJ;
+        private System.Windows.Forms.Button btnInsertarPVJ;
+        private System.Windows.Forms.TextBox txtbNPID;
+        private System.Windows.Forms.TextBox txtbPID;
+        private System.Windows.Forms.TextBox txtbVJID;
+        private System.Windows.Forms.Label label8;
     }
 }
 
