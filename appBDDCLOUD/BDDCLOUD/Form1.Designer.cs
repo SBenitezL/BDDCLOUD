@@ -46,25 +46,31 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.tbpConsult = new System.Windows.Forms.TabPage();
-            this.dtGrdGenero = new System.Windows.Forms.DataGridView();
-            this.dtGrdJugador = new System.Windows.Forms.DataGridView();
-            this.dtGrdPlataforma = new System.Windows.Forms.DataGridView();
-            this.lblGenero = new System.Windows.Forms.Label();
-            this.lblJugador = new System.Windows.Forms.Label();
-            this.lblPlataforma = new System.Windows.Forms.Label();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblIdJuego = new System.Windows.Forms.Label();
-            this.txtBoxId = new System.Windows.Forms.TextBox();
             this.btnConsultarVideojuego = new System.Windows.Forms.Button();
+            this.txtBoxId = new System.Windows.Forms.TextBox();
+            this.lblIdJuego = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblPlataforma = new System.Windows.Forms.Label();
+            this.lblJugador = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.dtGrdPlataforma = new System.Windows.Forms.DataGridView();
+            this.dtGrdJugador = new System.Windows.Forms.DataGridView();
+            this.dtGrdGenero = new System.Windows.Forms.DataGridView();
+            this.tbpDictionary = new System.Windows.Forms.TabPage();
+            this.btnDiccionario = new System.Windows.Forms.Button();
+            this.dgvDiccionario = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tbpJugador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tbpConsult.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGrdPlataforma)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).BeginInit();
+            this.tbpDictionary.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDiccionario)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -72,6 +78,7 @@
             this.tabControl1.Controls.Add(this.tbpJugador);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tbpConsult);
+            this.tabControl1.Controls.Add(this.tbpDictionary);
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -110,7 +117,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(27, 279);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(81, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "id del jugador";
             // 
@@ -164,7 +171,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.Size = new System.Drawing.Size(94, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Año de consulta";
             // 
@@ -264,62 +271,33 @@
             this.tbpConsult.TabIndex = 2;
             this.tbpConsult.Text = "Consultas";
             // 
-            // dtGrdGenero
+            // btnConsultarVideojuego
             // 
-            this.dtGrdGenero.BackgroundColor = System.Drawing.SystemColors.Info;
-            this.dtGrdGenero.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrdGenero.Location = new System.Drawing.Point(7, 209);
-            this.dtGrdGenero.Name = "dtGrdGenero";
-            this.dtGrdGenero.Size = new System.Drawing.Size(240, 150);
-            this.dtGrdGenero.TabIndex = 0;
+            this.btnConsultarVideojuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.btnConsultarVideojuego.Location = new System.Drawing.Point(123, 75);
+            this.btnConsultarVideojuego.Name = "btnConsultarVideojuego";
+            this.btnConsultarVideojuego.Size = new System.Drawing.Size(75, 23);
+            this.btnConsultarVideojuego.TabIndex = 9;
+            this.btnConsultarVideojuego.Text = "Consultar";
+            this.btnConsultarVideojuego.UseVisualStyleBackColor = true;
+            this.btnConsultarVideojuego.Click += new System.EventHandler(this.btnConsultarVideojuego_Click);
             // 
-            // dtGrdJugador
+            // txtBoxId
             // 
-            this.dtGrdJugador.BackgroundColor = System.Drawing.SystemColors.Info;
-            this.dtGrdJugador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrdJugador.Location = new System.Drawing.Point(282, 209);
-            this.dtGrdJugador.Name = "dtGrdJugador";
-            this.dtGrdJugador.Size = new System.Drawing.Size(240, 150);
-            this.dtGrdJugador.TabIndex = 1;
+            this.txtBoxId.Location = new System.Drawing.Point(98, 49);
+            this.txtBoxId.Name = "txtBoxId";
+            this.txtBoxId.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxId.TabIndex = 8;
             // 
-            // dtGrdPlataforma
+            // lblIdJuego
             // 
-            this.dtGrdPlataforma.BackgroundColor = System.Drawing.SystemColors.Info;
-            this.dtGrdPlataforma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrdPlataforma.Location = new System.Drawing.Point(543, 209);
-            this.dtGrdPlataforma.Name = "dtGrdPlataforma";
-            this.dtGrdPlataforma.Size = new System.Drawing.Size(240, 150);
-            this.dtGrdPlataforma.TabIndex = 2;
-            // 
-            // lblGenero
-            // 
-            this.lblGenero.AutoSize = true;
-            this.lblGenero.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
-            this.lblGenero.Location = new System.Drawing.Point(62, 174);
-            this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(107, 16);
-            this.lblGenero.TabIndex = 3;
-            this.lblGenero.Text = "Genero Del Juego";
-            // 
-            // lblJugador
-            // 
-            this.lblJugador.AutoSize = true;
-            this.lblJugador.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
-            this.lblJugador.Location = new System.Drawing.Point(325, 174);
-            this.lblJugador.Name = "lblJugador";
-            this.lblJugador.Size = new System.Drawing.Size(140, 16);
-            this.lblJugador.TabIndex = 4;
-            this.lblJugador.Text = "Jugaodres Profesionales";
-            // 
-            // lblPlataforma
-            // 
-            this.lblPlataforma.AutoSize = true;
-            this.lblPlataforma.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
-            this.lblPlataforma.Location = new System.Drawing.Point(591, 174);
-            this.lblPlataforma.Name = "lblPlataforma";
-            this.lblPlataforma.Size = new System.Drawing.Size(139, 16);
-            this.lblPlataforma.TabIndex = 5;
-            this.lblPlataforma.Text = "Plataformas Disponibles";
+            this.lblIdJuego.AutoSize = true;
+            this.lblIdJuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblIdJuego.Location = new System.Drawing.Point(8, 50);
+            this.lblIdJuego.Name = "lblIdJuego";
+            this.lblIdJuego.Size = new System.Drawing.Size(84, 16);
+            this.lblIdJuego.TabIndex = 7;
+            this.lblIdJuego.Text = "Id videojuego";
             // 
             // lblTitulo
             // 
@@ -331,33 +309,101 @@
             this.lblTitulo.TabIndex = 6;
             this.lblTitulo.Text = "Sistema De Consulta De Videojuegos";
             // 
-            // lblIdJuego
+            // lblPlataforma
             // 
-            this.lblIdJuego.AutoSize = true;
-            this.lblIdJuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
-            this.lblIdJuego.Location = new System.Drawing.Point(8, 50);
-            this.lblIdJuego.Name = "lblIdJuego";
-            this.lblIdJuego.Size = new System.Drawing.Size(83, 16);
-            this.lblIdJuego.TabIndex = 7;
-            this.lblIdJuego.Text = "Id videojuego";
+            this.lblPlataforma.AutoSize = true;
+            this.lblPlataforma.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblPlataforma.Location = new System.Drawing.Point(591, 174);
+            this.lblPlataforma.Name = "lblPlataforma";
+            this.lblPlataforma.Size = new System.Drawing.Size(140, 16);
+            this.lblPlataforma.TabIndex = 5;
+            this.lblPlataforma.Text = "Plataformas Disponibles";
             // 
-            // txtBoxId
+            // lblJugador
             // 
-            this.txtBoxId.Location = new System.Drawing.Point(98, 49);
-            this.txtBoxId.Name = "txtBoxId";
-            this.txtBoxId.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxId.TabIndex = 8;
+            this.lblJugador.AutoSize = true;
+            this.lblJugador.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblJugador.Location = new System.Drawing.Point(325, 174);
+            this.lblJugador.Name = "lblJugador";
+            this.lblJugador.Size = new System.Drawing.Size(141, 16);
+            this.lblJugador.TabIndex = 4;
+            this.lblJugador.Text = "Jugaodres Profesionales";
             // 
-            // btnConsultarVideojuego
+            // lblGenero
             // 
-            this.btnConsultarVideojuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
-            this.btnConsultarVideojuego.Location = new System.Drawing.Point(123, 75);
-            this.btnConsultarVideojuego.Name = "btnConsultarVideojuego";
-            this.btnConsultarVideojuego.Size = new System.Drawing.Size(75, 23);
-            this.btnConsultarVideojuego.TabIndex = 9;
-            this.btnConsultarVideojuego.Text = "Consultar";
-            this.btnConsultarVideojuego.UseVisualStyleBackColor = true;
-            this.btnConsultarVideojuego.Click += new System.EventHandler(this.btnConsultarVideojuego_Click);
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblGenero.Location = new System.Drawing.Point(62, 174);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(108, 16);
+            this.lblGenero.TabIndex = 3;
+            this.lblGenero.Text = "Genero Del Juego";
+            // 
+            // dtGrdPlataforma
+            // 
+            this.dtGrdPlataforma.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdPlataforma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdPlataforma.Location = new System.Drawing.Point(543, 209);
+            this.dtGrdPlataforma.Name = "dtGrdPlataforma";
+            this.dtGrdPlataforma.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdPlataforma.TabIndex = 2;
+            // 
+            // dtGrdJugador
+            // 
+            this.dtGrdJugador.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdJugador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdJugador.Location = new System.Drawing.Point(282, 209);
+            this.dtGrdJugador.Name = "dtGrdJugador";
+            this.dtGrdJugador.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdJugador.TabIndex = 1;
+            // 
+            // dtGrdGenero
+            // 
+            this.dtGrdGenero.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdGenero.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdGenero.Location = new System.Drawing.Point(7, 209);
+            this.dtGrdGenero.Name = "dtGrdGenero";
+            this.dtGrdGenero.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdGenero.TabIndex = 0;
+            // 
+            // tbpDictionary
+            // 
+            this.tbpDictionary.Controls.Add(this.label8);
+            this.tbpDictionary.Controls.Add(this.dgvDiccionario);
+            this.tbpDictionary.Controls.Add(this.btnDiccionario);
+            this.tbpDictionary.Location = new System.Drawing.Point(4, 22);
+            this.tbpDictionary.Name = "tbpDictionary";
+            this.tbpDictionary.Size = new System.Drawing.Size(794, 411);
+            this.tbpDictionary.TabIndex = 3;
+            this.tbpDictionary.Text = "Diccionario";
+            this.tbpDictionary.UseVisualStyleBackColor = true;
+            // 
+            // btnDiccionario
+            // 
+            this.btnDiccionario.Location = new System.Drawing.Point(358, 108);
+            this.btnDiccionario.Name = "btnDiccionario";
+            this.btnDiccionario.Size = new System.Drawing.Size(115, 44);
+            this.btnDiccionario.TabIndex = 0;
+            this.btnDiccionario.Text = "Consultar";
+            this.btnDiccionario.UseVisualStyleBackColor = true;
+            this.btnDiccionario.Click += new System.EventHandler(this.btnDiccionario_Click);
+            // 
+            // dgvDiccionario
+            // 
+            this.dgvDiccionario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDiccionario.Location = new System.Drawing.Point(16, 177);
+            this.dgvDiccionario.Name = "dgvDiccionario";
+            this.dgvDiccionario.Size = new System.Drawing.Size(758, 222);
+            this.dgvDiccionario.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(380, 35);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(77, 13);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "DICCIONARIO";
             // 
             // Form1
             // 
@@ -376,9 +422,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tbpConsult.ResumeLayout(false);
             this.tbpConsult.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGrdPlataforma)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).EndInit();
+            this.tbpDictionary.ResumeLayout(false);
+            this.tbpDictionary.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDiccionario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -413,6 +462,10 @@
         private System.Windows.Forms.TextBox txtBoxId;
         private System.Windows.Forms.Label lblIdJuego;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.TabPage tbpDictionary;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataGridView dgvDiccionario;
+        private System.Windows.Forms.Button btnDiccionario;
     }
 }
 

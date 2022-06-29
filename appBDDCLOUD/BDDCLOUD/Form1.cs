@@ -75,10 +75,6 @@ namespace BDDCLOUD
                 prcConsultarPlataformaTableAdapter prcPlataforma = new prcConsultarPlataformaTableAdapter();
                 datos.dsVideoJuegos.prcConsultarPlataformaDataTable dtPlataforma =prcPlataforma.GetData(id);
                 dtGrdPlataforma.DataSource = dtPlataforma;
-                    
-                    //prcJuegosJugadosTableAdapter prc = new prcJuegosJugadosTableAdapter();
-                //datos.dsVideoJuegos.prcJuegosJugadosDataTable dt = prc.GetData(id);
-                //dgvJugador.DataSource = dt;
             }
             catch
             {
@@ -86,6 +82,13 @@ namespace BDDCLOUD
                 MessageBox.Show("La id ingresado no es valido","prueba");
             }
             txtBoxId.Clear();
+        }
+
+        private void btnDiccionario_Click(object sender, EventArgs e)
+        {
+            prc_diccionaryTableAdapter prc = new prc_diccionaryTableAdapter();
+            dsVideoJuegos.prc_diccionaryDataTable dt = prc.GetData();
+            dgvDiccionario.DataSource = dt;
         }
     }
 }
