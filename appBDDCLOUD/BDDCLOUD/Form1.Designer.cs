@@ -40,11 +40,12 @@
             this.txtAnio = new System.Windows.Forms.TextBox();
             this.dgvJugador = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tbpJugador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).BeginInit();
@@ -56,6 +57,7 @@
             // 
             this.tabControl1.Controls.Add(this.tbpJugador);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -94,7 +96,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(27, 279);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 16);
+            this.label4.Size = new System.Drawing.Size(80, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "id del jugador";
             // 
@@ -148,7 +150,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 16);
+            this.label1.Size = new System.Drawing.Size(93, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Año de consulta";
             // 
@@ -183,32 +185,14 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // label7
             // 
-            this.button1.Location = new System.Drawing.Point(675, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Actualizar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnConsultarPlatVidJu);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(511, 255);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(272, 150);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(89, 51);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "label5";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(89, 115);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "label7";
             // 
             // label6
             // 
@@ -219,14 +203,42 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "label6";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(89, 115);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "label7";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(89, 51);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "label5";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(511, 255);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(272, 150);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(675, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(108, 36);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Actualizar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnConsultarPlatVidJu);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(794, 411);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -266,6 +278,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TabPage tabPage1;
     }
 }
 
