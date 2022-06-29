@@ -30,19 +30,21 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbpJugador = new System.Windows.Forms.TabPage();
+            this.txtIdJugador = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnConsultarAnio = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnConsultarJugador = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtAnio = new System.Windows.Forms.TextBox();
             this.dgvJugador = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btnConsultarAnio = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtIdJugador = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbpJugador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -73,6 +75,45 @@
             this.tbpJugador.Size = new System.Drawing.Size(794, 411);
             this.tbpJugador.TabIndex = 0;
             this.tbpJugador.Text = "tabPage1";
+            // 
+            // txtIdJugador
+            // 
+            this.txtIdJugador.Location = new System.Drawing.Point(118, 279);
+            this.txtIdJugador.Name = "txtIdJugador";
+            this.txtIdJugador.Size = new System.Drawing.Size(100, 20);
+            this.txtIdJugador.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(27, 279);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "id del jugador";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(10, 228);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(197, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "videojuegos jugados";
+            // 
+            // btnConsultarAnio
+            // 
+            this.btnConsultarAnio.BackColor = System.Drawing.Color.BurlyWood;
+            this.btnConsultarAnio.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarAnio.Location = new System.Drawing.Point(251, 75);
+            this.btnConsultarAnio.Name = "btnConsultarAnio";
+            this.btnConsultarAnio.Size = new System.Drawing.Size(88, 23);
+            this.btnConsultarAnio.TabIndex = 5;
+            this.btnConsultarAnio.Text = "CONSULTAR";
+            this.btnConsultarAnio.UseVisualStyleBackColor = false;
+            this.btnConsultarAnio.Click += new System.EventHandler(this.btnConsultarAnio_Click);
             // 
             // label2
             // 
@@ -124,6 +165,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -132,44 +174,15 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // btnConsultarAnio
+            // button1
             // 
-            this.btnConsultarAnio.BackColor = System.Drawing.Color.BurlyWood;
-            this.btnConsultarAnio.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarAnio.Location = new System.Drawing.Point(251, 75);
-            this.btnConsultarAnio.Name = "btnConsultarAnio";
-            this.btnConsultarAnio.Size = new System.Drawing.Size(88, 23);
-            this.btnConsultarAnio.TabIndex = 5;
-            this.btnConsultarAnio.Text = "CONSULTAR";
-            this.btnConsultarAnio.UseVisualStyleBackColor = false;
-            this.btnConsultarAnio.Click += new System.EventHandler(this.btnConsultarAnio_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Console", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(10, 228);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(197, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "videojuegos jugados";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 279);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "id del jugador";
-            // 
-            // txtIdJugador
-            // 
-            this.txtIdJugador.Location = new System.Drawing.Point(118, 279);
-            this.txtIdJugador.Name = "txtIdJugador";
-            this.txtIdJugador.Size = new System.Drawing.Size(100, 20);
-            this.txtIdJugador.TabIndex = 8;
+            this.button1.Location = new System.Drawing.Point(369, 99);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnConsultarPlatVidJu);
             // 
             // Form1
             // 
@@ -183,6 +196,7 @@
             this.tbpJugador.ResumeLayout(false);
             this.tbpJugador.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).EndInit();
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -201,6 +215,7 @@
         private System.Windows.Forms.TextBox txtIdJugador;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

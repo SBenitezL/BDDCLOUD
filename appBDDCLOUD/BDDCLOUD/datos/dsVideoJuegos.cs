@@ -4,6 +4,9 @@
 
     partial class dsVideoJuegos
     {
+        partial class consultarPosterioresDataTable
+        {
+        }
     }
 }
 

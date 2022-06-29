@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BDDCLOUD.datos.dsVideoJuegosTableAdapters;
+using BDDCLOUD.datos;
+
 
 namespace BDDCLOUD
 {
@@ -49,6 +51,14 @@ namespace BDDCLOUD
                 MessageBox.Show("El año ingresado no es valido");
             }
             txtAnio.Clear();
+        }
+
+        private void btnConsultarPlatVidJu (object sender, EventArgs e)
+        {
+            prcConsultarAllPlataformasVideoJuegoTableAdapter prc = new prcConsultarAllPlataformasVideoJuegoTableAdapter();
+            dsVideoJuegos.prcConsultarAllPlataformasVideoJuegoDataTable dt = prc.GetData();
+
+            
         }
     }
 }
