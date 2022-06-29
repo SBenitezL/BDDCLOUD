@@ -80,9 +80,9 @@
             this.label2.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(7, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(376, 13);
+            this.label2.Size = new System.Drawing.Size(304, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Videojuegos lanados posterior a una fecha";
+            this.label2.Text = "Videojuegos lanzados en una fecha";
             // 
             // btnConsultarJugador
             // 
