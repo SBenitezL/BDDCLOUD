@@ -60,5 +60,32 @@ namespace BDDCLOUD
 
             
         }
+
+        private void btnConsultarVideojuego_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = int.Parse(txtBoxId.Text);
+                prcConsultarGeneroTableAdapter prcGenero = new prcConsultarGeneroTableAdapter();
+                datos.dsVideoJuegos.prcConsultarGeneroDataTable dtGenero = prcGenero.GetData(id);
+                dtGrdGenero.DataSource = dtGenero;
+                prcConsultarJugadorTableAdapter prcJugador = new prcConsultarJugadorTableAdapter();
+                datos.dsVideoJuegos.prcConsultarJugadorDataTable dtJugador = prcJugador.GetData(id);
+                dtGrdJugador.DataSource = dtJugador;
+                prcConsultarPlataformaTableAdapter prcPlataforma = new prcConsultarPlataformaTableAdapter();
+                datos.dsVideoJuegos.prcConsultarPlataformaDataTable dtPlataforma =prcPlataforma.GetData(id);
+                dtGrdPlataforma.DataSource = dtPlataforma;
+                    
+                    //prcJuegosJugadosTableAdapter prc = new prcJuegosJugadosTableAdapter();
+                //datos.dsVideoJuegos.prcJuegosJugadosDataTable dt = prc.GetData(id);
+                //dgvJugador.DataSource = dt;
+            }
+            catch
+            {
+                
+                MessageBox.Show("La id ingresado no es valido","prueba");
+            }
+            txtBoxId.Clear();
+        }
     }
 }

@@ -60,3 +60,17 @@ D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hans\Mic
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 D:\Universidad\Semestre v\proyecto_bd\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CopyComplete
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.exe
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\BDDCLOUD.pdb
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\bin\Debug\es\Microsoft.Data.Tools.Components.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Form1.resources
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.csproj.CopyComplete
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.exe
+C:\Users\Usuario\OneDrive\Escritorio\x\BDDCLOUD\appBDDCLOUD\BDDCLOUD\obj\Debug\BDDCLOUD.pdb

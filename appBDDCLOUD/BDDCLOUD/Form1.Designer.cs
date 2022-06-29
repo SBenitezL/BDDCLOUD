@@ -45,19 +45,33 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tbpConsult = new System.Windows.Forms.TabPage();
+            this.dtGrdGenero = new System.Windows.Forms.DataGridView();
+            this.dtGrdJugador = new System.Windows.Forms.DataGridView();
+            this.dtGrdPlataforma = new System.Windows.Forms.DataGridView();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.lblJugador = new System.Windows.Forms.Label();
+            this.lblPlataforma = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblIdJuego = new System.Windows.Forms.Label();
+            this.txtBoxId = new System.Windows.Forms.TextBox();
+            this.btnConsultarVideojuego = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbpJugador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJugador)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tbpConsult.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdPlataforma)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tbpJugador);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tbpConsult);
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -230,15 +244,120 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnConsultarPlatVidJu);
             // 
-            // tabPage1
+            // tbpConsult
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(794, 411);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tbpConsult.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.tbpConsult.Controls.Add(this.btnConsultarVideojuego);
+            this.tbpConsult.Controls.Add(this.txtBoxId);
+            this.tbpConsult.Controls.Add(this.lblIdJuego);
+            this.tbpConsult.Controls.Add(this.lblTitulo);
+            this.tbpConsult.Controls.Add(this.lblPlataforma);
+            this.tbpConsult.Controls.Add(this.lblJugador);
+            this.tbpConsult.Controls.Add(this.lblGenero);
+            this.tbpConsult.Controls.Add(this.dtGrdPlataforma);
+            this.tbpConsult.Controls.Add(this.dtGrdJugador);
+            this.tbpConsult.Controls.Add(this.dtGrdGenero);
+            this.tbpConsult.Location = new System.Drawing.Point(4, 22);
+            this.tbpConsult.Name = "tbpConsult";
+            this.tbpConsult.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpConsult.Size = new System.Drawing.Size(794, 411);
+            this.tbpConsult.TabIndex = 2;
+            this.tbpConsult.Text = "Consultas";
+            // 
+            // dtGrdGenero
+            // 
+            this.dtGrdGenero.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdGenero.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdGenero.Location = new System.Drawing.Point(7, 209);
+            this.dtGrdGenero.Name = "dtGrdGenero";
+            this.dtGrdGenero.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdGenero.TabIndex = 0;
+            // 
+            // dtGrdJugador
+            // 
+            this.dtGrdJugador.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdJugador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdJugador.Location = new System.Drawing.Point(282, 209);
+            this.dtGrdJugador.Name = "dtGrdJugador";
+            this.dtGrdJugador.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdJugador.TabIndex = 1;
+            // 
+            // dtGrdPlataforma
+            // 
+            this.dtGrdPlataforma.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dtGrdPlataforma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdPlataforma.Location = new System.Drawing.Point(543, 209);
+            this.dtGrdPlataforma.Name = "dtGrdPlataforma";
+            this.dtGrdPlataforma.Size = new System.Drawing.Size(240, 150);
+            this.dtGrdPlataforma.TabIndex = 2;
+            // 
+            // lblGenero
+            // 
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblGenero.Location = new System.Drawing.Point(62, 174);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(107, 16);
+            this.lblGenero.TabIndex = 3;
+            this.lblGenero.Text = "Genero Del Juego";
+            // 
+            // lblJugador
+            // 
+            this.lblJugador.AutoSize = true;
+            this.lblJugador.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblJugador.Location = new System.Drawing.Point(325, 174);
+            this.lblJugador.Name = "lblJugador";
+            this.lblJugador.Size = new System.Drawing.Size(140, 16);
+            this.lblJugador.TabIndex = 4;
+            this.lblJugador.Text = "Jugaodres Profesionales";
+            // 
+            // lblPlataforma
+            // 
+            this.lblPlataforma.AutoSize = true;
+            this.lblPlataforma.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblPlataforma.Location = new System.Drawing.Point(591, 174);
+            this.lblPlataforma.Name = "lblPlataforma";
+            this.lblPlataforma.Size = new System.Drawing.Size(139, 16);
+            this.lblPlataforma.TabIndex = 5;
+            this.lblPlataforma.Text = "Plataformas Disponibles";
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Tai Le", 15F, System.Drawing.FontStyle.Bold);
+            this.lblTitulo.Location = new System.Drawing.Point(237, 3);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(360, 26);
+            this.lblTitulo.TabIndex = 6;
+            this.lblTitulo.Text = "Sistema De Consulta De Videojuegos";
+            // 
+            // lblIdJuego
+            // 
+            this.lblIdJuego.AutoSize = true;
+            this.lblIdJuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.lblIdJuego.Location = new System.Drawing.Point(8, 50);
+            this.lblIdJuego.Name = "lblIdJuego";
+            this.lblIdJuego.Size = new System.Drawing.Size(83, 16);
+            this.lblIdJuego.TabIndex = 7;
+            this.lblIdJuego.Text = "Id videojuego";
+            // 
+            // txtBoxId
+            // 
+            this.txtBoxId.Location = new System.Drawing.Point(98, 49);
+            this.txtBoxId.Name = "txtBoxId";
+            this.txtBoxId.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxId.TabIndex = 8;
+            // 
+            // btnConsultarVideojuego
+            // 
+            this.btnConsultarVideojuego.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold);
+            this.btnConsultarVideojuego.Location = new System.Drawing.Point(123, 75);
+            this.btnConsultarVideojuego.Name = "btnConsultarVideojuego";
+            this.btnConsultarVideojuego.Size = new System.Drawing.Size(75, 23);
+            this.btnConsultarVideojuego.TabIndex = 9;
+            this.btnConsultarVideojuego.Text = "Consultar";
+            this.btnConsultarVideojuego.UseVisualStyleBackColor = true;
+            this.btnConsultarVideojuego.Click += new System.EventHandler(this.btnConsultarVideojuego_Click);
             // 
             // Form1
             // 
@@ -255,6 +374,11 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tbpConsult.ResumeLayout(false);
+            this.tbpConsult.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdGenero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdJugador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGrdPlataforma)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -278,7 +402,17 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tbpConsult;
+        private System.Windows.Forms.Label lblPlataforma;
+        private System.Windows.Forms.Label lblJugador;
+        private System.Windows.Forms.Label lblGenero;
+        private System.Windows.Forms.DataGridView dtGrdPlataforma;
+        private System.Windows.Forms.DataGridView dtGrdJugador;
+        private System.Windows.Forms.DataGridView dtGrdGenero;
+        private System.Windows.Forms.Button btnConsultarVideojuego;
+        private System.Windows.Forms.TextBox txtBoxId;
+        private System.Windows.Forms.Label lblIdJuego;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
 
