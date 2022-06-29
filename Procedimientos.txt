@@ -1,0 +1,49 @@
+--Procedimiento que consulta un videojuego en especifico
+create procedure consultarVideoJuego(@v_id int) --Pasamos los parametros con @
+as
+begin
+	select *
+	from tblVIDEOJUEGOS
+	where IDVIDEOJUEGOS=@v_id;
+end;
+
+go --Comenzamos un nuevo bloque de comandos
+
+execute consultarPosteriores 1; --Ejecutamos el PA con la id 1
+
+
+
+--Procedimiento que consulta los viedeojuegos lanzados posteriores a cierto año y antes del año actual
+create procedure consultarPosteriores(@v_anio int) --Pasamos los parametros con @
+as
+begin
+	if (@v_anio>1950 and @v_anio<=year(SYSDATETIME()))
+	begin
+		select *
+		from tblVIDEOJUEGOS
+		where year(LANZAMIENTOVIDEOJUEGO) = @v_anio;
+	end
+	else
+	begin
+		print 'El año ingresado no es valido';
+	end
+end;
+
+go --Comenzamos un nuevo bloque de comandos
+
+execute consultarPosteriores 2023; --Ejecutamos el PA con el año 2023
+
+
+--Porcedimiento que consulta los videojuegos de un jugador
+
+create procedure prcJuegosJugados(@v_id int)
+as
+begin
+	select NombreJugador, NombreVideoJuegos
+	from (tblJugadoresProfesionales jugador inner join tblVideoJuegosJugados conn 
+	on jugador.IDJUGADOR=conn.IDJUGADOR) 
+	inner join tblVideoJuegos vj on vj.IDVIDEOJUEGOS=conn.IDVIDEOJUEGO
+	where jugador.IDJUGADOR=@v_id;
+end
+
+execute prcJuegosJugados 600;
